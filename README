@@ -1,0 +1,2 @@
+* run 'gradle jettyRunWar'
+* go to http://localhost:8080/restfulie-gradle-example/ or http://localhost:8080/restfulie-gradle-example/items/1

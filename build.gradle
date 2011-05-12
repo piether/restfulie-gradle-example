@@ -1,12 +1,11 @@
-apply plugin: 'idea'
-apply plugin: 'java'
 apply plugin: 'war'
+apply plugin: 'jetty'
 
 repositories {
        mavenRepo name: 'releases', urls: "http://localhost:8081/artifactory/libs-releases";
 }
 
-group = 'be.piether.scores'
+group = 'be.piether'
 version = '1.0'
 
 dependencies {
